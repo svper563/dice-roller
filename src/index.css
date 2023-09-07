@@ -9,3 +9,15 @@ body {
   font-family: sans-serif;
   text-align: center;
 }
+
+.die-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.die-card img {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
