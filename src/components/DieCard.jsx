@@ -7,12 +7,12 @@ export default function DieCard(props) {
     const [count, setCount] = useState(0);
 
     function incrementCount() {
-        setCount(count + 1);
+        setCount(prevCount => prevCount + 1);
     };
 
     function decrementCount() {
         if (count > 0) {
-            setCount(count - 1);
+            setCount(prevCount => prevCount - 1);
         };
     };
 
