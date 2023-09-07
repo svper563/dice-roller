@@ -11,6 +11,7 @@ function App() {
         <DieCard label="d12" sides={12} iconSrc="./icons/dice-d12.png"/>
         <DieCard label="d20" sides={20} iconSrc="./icons/dice-d20.png"/>
       </div>
+      <button>Roll Dice</button>
     </div>
   );
 }
