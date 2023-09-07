@@ -1,6 +1,11 @@
+:root {
+  --background-color: #556;
+  --foreground-color: #fff;
+}
+
 body {
-  background-color: #222;
-  color: white;
+  background-color: var(--background-color);
+  color: var(--foreground-color);
   font-family: sans-serif;
   text-align: center;
 }
