@@ -19,7 +19,7 @@ export default function DieCard(props) {
     return (
         <div className="die-card">
             <h2>{label}</h2>
-            <img src={iconSrc}></img>
+            <img src={iconSrc} className="inverted"></img>
             <p>{count}</p>
             <button onClick={incrementCount}>+</button>
             <button onClick={decrementCount}>-</button>

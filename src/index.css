@@ -21,3 +21,7 @@ body {
   height: 100px;
   margin: 10px;
 }
+
+.inverted {
+  filter: invert(100%);
+}
