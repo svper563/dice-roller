@@ -1,7 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 
 export default function DieCard(props) {
+
+    const {label, iconSrc, sides} = props;
+
+    const [count, setCount] = useState(0);
+
     return (
-        <h1>Dice Card</h1>
+        <div className="die-card">
+            <h2>{label}</h2>
+            <img src={iconSrc}></img>
+            <button>+</button>
+            <button>-</button>
+        </div>
     );
 }
