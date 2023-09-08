@@ -9,7 +9,7 @@ export default function DieCard(props) {
     function handleClick() {
         console.log(`${sides} Button clicked.`);
         const roll = rollDie();
-        const obj = {die: sides, roll: roll};
+        const obj = {roll: roll, iconSrc: iconSrc};
         setDice(prevDice => [...prevDice, obj]);
     }
 
