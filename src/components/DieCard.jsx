@@ -18,7 +18,9 @@ export default function DieCard(props) {
 
     return (
         <div className="die-card">
-            <img src={iconSrc} className="inverted"></img>
+            <button className="button-clear" onClick={() => console.log(`${sides} Button clicked.`)}>
+                <img src={iconSrc} className="inverted"></img>
+            </button>
         </div>
     );
 }
